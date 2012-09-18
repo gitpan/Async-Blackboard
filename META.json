@@ -36,9 +36,9 @@
    "provides" : {
       "Async::Blackboard" : {
          "file" : "lib/Async/Blackboard.pm",
-         "version" : "v0.3.4"
+         "version" : "v0.3.6"
       }
    },
    "release_status" : "stable",
-   "version" : "v0.3.4"
+   "version" : "v0.3.6"
 }

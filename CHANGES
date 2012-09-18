@@ -1,0 +1,10 @@
+commit a0a0687c4ce889597f955e6dca24cdf488366d6a
+Author: Scott S. McCoy <smccoy@saymedia.com>
+Date:   Tue Sep 18 12:03:17 2012 -0700
+
+    Build-fix release, 0.3.6
+    
+     * Removed ``AnyEvent::Blackboard`` dependency from lib/all.PL (oops).
+     * Sanity-checked sources for remaining references to ``AnyEvent::``, found
+       none.
+     * Bumped version number.
