@@ -1,10 +1,8 @@
 {
    "abstract" : "A simple blackboard database and dispatcher.",
-   "author" : [
-      "unknown"
-   ],
+   "author" : [],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4004, CPAN::Meta::Converter version 2.120630",
+   "generated_by" : "Module::Build version 0.4202",
    "license" : [
       "unknown"
    ],
@@ -23,7 +21,7 @@
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.40"
+            "Module::Build" : "0.42"
          }
       },
       "runtime" : {
@@ -36,9 +34,9 @@
    "provides" : {
       "Async::Blackboard" : {
          "file" : "lib/Async/Blackboard.pm",
-         "version" : "v0.3.10"
+         "version" : "v0.3.12"
       }
    },
    "release_status" : "stable",
-   "version" : "v0.3.10"
+   "version" : "v0.3.12"
 }

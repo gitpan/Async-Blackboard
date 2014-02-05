@@ -7,9 +7,9 @@ build_requires:
   Devel::Leak: 0
   EV: 0
 configure_requires:
-  Module::Build: 0.40
+  Module::Build: 0.42
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4004, CPAN::Meta::Converter version 2.120630'
+generated_by: 'Module::Build version 0.4202, CPAN::Meta::Converter version 2.132830'
 license: unknown
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -18,8 +18,8 @@ name: Async-Blackboard
 provides:
   Async::Blackboard:
     file: lib/Async/Blackboard.pm
-    version: v0.3.10
+    version: v0.3.12
 requires:
   Mouse: 0
   Scalar::Util: 0
-version: v0.3.10
+version: v0.3.12
